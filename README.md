@@ -1,5 +1,7 @@
 # ExMon
 
+Projeto desenvolvido no curso [Elixir e Phoenix do zero! Crie sua primeira API Phoenix](https://www.udemy.com/course/elixir-e-phoenix-do-zero/) do Rafael F. Camarda.
+
 ## Explicação do Jogo
 
 - Jogo baseado em turnos onde termos um jogador contra o computador.
