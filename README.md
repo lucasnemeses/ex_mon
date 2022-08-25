@@ -14,3 +14,14 @@ Projeto desenvolvido no curso [Elixir e Phoenix do zero! Crie sua primeira API P
 - Se o jogador ou o computador ficarem com 0 de vida, o jogo acaba.
 - Se alguém perder, ao exibir o resultado final, não deve ser exibido que algum jogador ficou com vida negativa.
 - O jogador poderá escolher o nome do seu personagem, assim como o nome de seus 3 movimentos.
+
+## Iniciando o projeto
+
+```
+iex -S mix
+
+player = ExMon.create_player("Guile", :rolling_sobat, :sonic_boom, :ambush_kick)
+ExMon.start_game(player)
+ExMon.make_move(:rolling_sobat)
+ExMon.make_move(:sonic_boom)
+```
