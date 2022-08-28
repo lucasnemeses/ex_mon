@@ -6,12 +6,12 @@ defmodule ExMon.Player do
   @enforce_keys @require_keys # chaves obrigatorias
   defstruct @require_keys  # chaves da estrutura
 
-  def build(name, move_rnd, move_avg, move_heal) do
+  def build(name, move_avg, move_rnd, move_heal) do
     %ExMon.Player{
       life: @max_life,
       moves: %{
-        move_rnd: move_rnd,
         move_avg: move_avg,
+        move_rnd: move_rnd,
         move_heal: move_heal,
       },
       name: name,

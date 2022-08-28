@@ -24,4 +24,5 @@ player = ExMon.create_player("Guile", :rolling_sobat, :sonic_boom, :ambush_kick)
 ExMon.start_game(player)
 ExMon.make_move(:rolling_sobat)
 ExMon.make_move(:sonic_boom)
+ExMon.make_move(:ambush_kick)
 ```
